@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.attribution {
+    font-size: 11px; text-align: center; 
+    color: white;
+    margin-bottom: 16px;
+}
+
+.attribution a {
+    color: hsl(165, 54%, 65%);
+}
+
+body {
+    font-family: "Overpass", sans-serif;
+    font-size: 15px;
+    background-color: hsl(216, 12%, 8%);
+}
+
+button {
+    font-family: inherit;
+}
+
+.button_submit {
+    border: none;
+    background-color: hsl(25, 97%, 53%);
+    color: white;
+    width: 100%;
+    padding: 15px 0px;
+    border-radius: 100px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.button_submit:hover {
+    background-color: white;
+    color: hsl(25, 97%, 53%);
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.card_rate, .card_rate_sent {
+    background: linear-gradient(hsl(213, 19%, 18%), hsl(213, 19%, 14%));
+    padding: 24px;
+    border-radius: 24px;
+    max-width: 350px;
+}
+
+.card_rate h1 {
+    margin: 24px 0px 8px;
+    color: white;
+}
+
+.card_rate img {
+    background-color: hsl(213, 19%, 25%);
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.card_rate p, .card_rate_sent p {
+    line-height: 140%;
+    color: hsl(217, 12%, 63%);
+    margin-bottom: 24px;
+}
+
+.card_rate_sent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.card_rate_sent h1 {
+    margin-bottom: 8px;
+    color: white;
+}
+
+.card_rate_sent img {
+    margin: 16px 0px 24px;
+}
+
+.card_rate_sent p.card_rate_value {
+    background-color: hsl(213, 19%, 25%);
+    padding: 10px 24px 8px;    
+    border-radius: 100px;
+    color: hsl(25, 97%, 53%);
+}
+
+.card_rate ul {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 24px;
+}
+
+.card_rate ul li button {
+    width: 40px;
+    height: 40px;
+    border: none;
+    background-color: hsl(213, 19%, 25%);
+    color: hsl(217, 12%, 63%);
+    padding-top: 2px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.card_rate ul li button:hover {
+    background-color: hsl(216, 12%, 54%);
+    color: white;
+}
+
+.card_rate ul li button:focus {
+    background-color: hsl(25, 97%, 53%);
+    color: white;
+}
+
+.hidden {
+    display: none;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+ul {
+    list-style-type: none;
+}
